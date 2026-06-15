@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Event</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family: Georgia, serif;
+            background:#f5f5f5;
+        }
+
+        h1,h2{
+            text-align:center;
+            color:coral;
+            margin:30px 0;
+        }
+
+        /* Features Section */
+
+        .features{
+            display:flex;
+            justify-content:center;
+            gap:80px;
+            margin:50px 0;
+            text-align:center;
+        }
+
+        .feature{
+            width:180px;
+        }
+
+        .icon{
+            width:100px;
+            height:100px;
+            border-radius:50%;
+            background:#111;
+            color:dodgerblue;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            font-size:40px;
+            margin:auto;
+        }
+
+        .feature h3{
+            margin:20px 0 10px;
+        }
+
+        .feature p{
+            color:gray;
+        }
+
+        /* Guest Cards */
+
+        .guests{
+            display:flex;
+            justify-content:center;
+            gap:30px;
+            margin:40px;
+        }
+
+        .card{
+            background:white;
+            width:300px;
+            text-align:center;
+            padding:25px;
+            box-shadow:0 0 15px rgba(0,0,0,.1);
+        }
+
+        .card img{
+            width:140px;
+            height:140px;
+            border-radius:50%;
+            object-fit:cover;
+        }
+
+        .card h3{
+            margin:15px 0;
+        }
+
+        .btn{
+            background:#b26d6d;
+            color:white;
+            border:none;
+            padding:10px 30px;
+            margin-top:15px;
+            cursor:pointer;
+        }
+
+        /* Products */
+
+        .products{
+            display:flex;
+            justify-content:center;
+            gap:25px;
+            margin:40px 20px;
+            flex-wrap:wrap;
+        }
+
+        .product{
+            width:250px;
+        }
+
+        .product img{
+            width:100%;
+            height:250px;
+            object-fit:cover;
+        }
+
+        .product h3{
+            margin:15px 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Get ready for seamless online music</h1>
+
+<div class="features">
+
+    <div class="feature">
+        <div class="icon">↓</div>
+        <h3>Offline mode</h3>
+        <p>Save and listen anywhere.</p>
+    </div>
+
+    <div class="feature">
+        <div class="icon">🎵</div>
+        <h3>High quality audio.</h3>
+        <p>Enjoy the full range of sound.</p>
+    </div>
+
+    <div class="feature">
+        <div class="icon">🚫</div>
+        <h3>No ads.</h3>
+        <p>Enjoy nonstop music.</p>
+    </div>
+
+    <div class="feature">
+        <div class="icon">▶</div>
+        <h3>Unlimited skips.</h3>
+        <p>Just tap skip.</p>
+    </div>
+
+</div>
+
+<h1>Featured Guests</h1>
+
+<div class="guests">
+
+    <div class="card">
+        <img src="https://picsum.photos/200?random=1">
+        <h3>Megan Smith</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <button class="btn">Register</button>
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/200?random=2">
+        <h3>Brooke Kagle</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <button class="btn">Register</button>
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/200?random=3">
+        <h3>Philip Martin</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <button class="btn">Register</button>
+    </div>
+
+</div>
+
+<h1>BUY WHAT'S NEW</h1>
+
+<div class="products">
+
+    <div class="product">
+        <img src="https://picsum.photos/300?random=11">
+        <h3>Garage Band</h3>
+        <p>Radio Station</p>
+    </div>
+
+    <div class="product">
+        <img src="https://picsum.photos/300?random=12">
+        <h3>Garage Band</h3>
+        <p>Radio Station</p>
+    </div>
+
+    <div class="product">
+        <img src="https://picsum.photos/300?random=13">
+        <h3>Garage Band</h3>
+        <p>Radio Station</p>
+    </div>
+
+    <div class="product">
+        <img src="https://picsum.photos/300?random=14">
+        <h3>Garage Band</h3>
+        <p>Radio Station</p>
+    </div>
+
+    <div class="product">
+        <img src="https://picsum.photos/300?random=15">
+        <h3>Garage Band</h3>
+        <p>Radio Station</p>
+    </div>
+
+</div>
+
+</body>
+</html>
